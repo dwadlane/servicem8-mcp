@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+<rect width="900" height="420" fill="#0b1220"/>
+<rect x="0" y="0" width="900" height="6" fill="#0ea5e9"/>
+<text x="40" y="58" font-size="26" font-weight="700" fill="#e6edf7">ServiceM8 MCP Server</text>
+<text x="860" y="58" font-size="18" text-anchor="end" fill="#93a4bf">Claude, demo data</text>
+<rect x="484" y="90" width="376" height="56" rx="14" fill="#0ea5e9"/>
+<text x="504" y="126" font-size="22" font-weight="600" fill="#0b1220">Which quotes are going cold?</text>
+<rect x="40" y="172" width="820" height="176" rx="14" fill="#162036" stroke="#0ea5e9" stroke-opacity="0.4"/>
+<text x="64" y="212" font-size="21" fill="#e6edf7"><tspan>3 quotes worth </tspan><tspan fill="#f97316" font-weight="700">$18,850</tspan><tspan> have waited 7+ days with no answer.</tspan></text>
+<text x="64" y="246" font-size="21" fill="#e6edf7"><tspan>The biggest is the warehouse high bay lighting for</tspan></text>
+<text x="64" y="280" font-size="21" fill="#e6edf7"><tspan>Keilor Builders, </tspan><tspan fill="#f97316" font-weight="700">$9,600</tspan><tspan>, quoted 24 days ago.</tspan></text>
+<text x="64" y="314" font-size="21" fill="#e6edf7"><tspan>Want me to draft follow-ups?</tspan></text>
+<text x="40" y="388" font-size="18" fill="#93a4bf">Read-only by default. Runs on demo data with no account.</text>
+<text x="860" y="388" font-size="18" text-anchor="end" fill="#0ea5e9" font-weight="600">gaps2gains.com</text>
+
+</svg>

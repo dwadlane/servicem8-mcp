@@ -1,6 +1,10 @@
 # ServiceM8 MCP Server
 
-[![CI](https://github.com/dwadlane/servicem8-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/dwadlane/servicem8-mcp/actions/workflows/ci.yml)
+Built by Gaps2Gains. We cut a moving company's inquiry reply time from 13.8 hours to 9 seconds. [Book a Free Discovery Call](https://gaps2gains.com/diagnosis)
+
+![ServiceM8 MCP: Which quotes are going cold? Claude finds 3 quotes worth $18,850 waiting 7+ days](docs/hero.svg)
+
+[![CI](https://github.com/dwadlane/servicem8-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/dwadlane/servicem8-mcp/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/github/license/dwadlane/servicem8-mcp)](LICENSE) [![Release](https://img.shields.io/github/v/release/dwadlane/servicem8-mcp)](https://github.com/dwadlane/servicem8-mcp/releases)
 
 Ask Claude about your ServiceM8 business in plain English. "Which quotes should I chase today?" "What's on tomorrow's schedule?" "Log this call as a new quote."
 
