@@ -96,7 +96,7 @@ The key stays on your machine and goes only to `api.servicem8.com` in the `X-Api
 
 ## Roadmap
 
-- Xero and MYOB servers on the same pattern, so Claude can match jobs to invoices and payments.
+- [MYOB MCP Server](https://github.com/dwadlane/myob-mcp) is live. Run both and Claude can match jobs to unpaid invoices.
 - Remote hosting on Cloudflare Workers so a whole team can connect without installing anything.
 
 ## Want This Wired Into Your Business?
