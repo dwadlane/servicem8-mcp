@@ -90,6 +90,12 @@ claude mcp add servicem8 -- node /full/path/to/servicem8-mcp/dist/index.js
 
 The key stays on your machine and goes only to `api.servicem8.com` in the `X-Api-Key` header.
 
+## When It Stops
+
+- **Writes are off unless `SERVICEM8_ALLOW_WRITES=1`.** Out of the box it only reads.
+- **It never deletes.** There is no delete tool, so nothing in ServiceM8 can be removed through it.
+- **It only reads what the API key's account can see.** If the key can't see a record, Claude can't either.
+
 ## How It's Built
 
 - TypeScript on the official [MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk), with input checks on every tool.
