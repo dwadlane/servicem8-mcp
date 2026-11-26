@@ -10,6 +10,20 @@ Ask Claude about your ServiceM8 business in plain English. "Which quotes should 
 
 An [MCP](https://modelcontextprotocol.io) server by [Gaps2Gains](https://gaps2gains.com) that connects Claude (Desktop, Code or any MCP client) to the ServiceM8 job management platform used by trade and field service businesses.
 
+## Try It Live, Nothing to Install
+
+Live URL: `https://servicem8-mcp-demo.dwad-lane.workers.dev/mcp`
+
+**Claude.ai:** Settings, Connectors, Add custom connector, paste the URL above, then ask "Which quotes are going cold?"
+
+**Claude Code:**
+
+```bash
+claude mcp add --transport http servicem8-demo https://servicem8-mcp-demo.dwad-lane.workers.dev/mcp
+```
+
+The live demo is read-only and runs on fictional Bright Spark Electrical data. It runs as a streamable HTTP MCP server on Cloudflare Workers (`src/worker.ts`). Check it any time with `npx tsx scripts/check-remote.ts`.
+
 ## What an Owner Can Ask
 
 > **You:** Which quotes are going cold?

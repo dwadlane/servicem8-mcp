@@ -15,7 +15,7 @@ const safe = <A,>(fn: (a: A) => Promise<unknown>) => async (a: A) => {
 const today = () => { const d = new Date(); const p = (n: number) => String(n).padStart(2, "0"); return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`; };
 
 export function buildServer(client: ServiceM8Client, opts: { allowWrites: boolean }) {
-  const server = new McpServer({ name: "servicem8-mcp", version: "0.1.0" });
+  const server = new McpServer({ name: "servicem8-mcp", version: "0.2.0" });
   const read = { readOnlyHint: true, openWorldHint: true };
 
   server.registerTool("cold_quotes", {

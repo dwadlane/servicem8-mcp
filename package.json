@@ -1,6 +1,6 @@
 {
   "name": "servicem8-mcp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "MCP server that lets Claude read and act on ServiceM8 jobs, quotes, clients and schedules.",
   "main": "dist/index.js",
   "directories": {
@@ -29,8 +29,10 @@
   },
   "devDependencies": {
     "@types/node": "^26.6.11",
+    "tsx": "^4.23.15",
     "typescript": "^7.0.2",
-    "vitest": "^5.1.2"
+    "vitest": "^5.1.2",
+    "wrangler": "^4.168.0"
   },
   "bin": {
     "servicem8-mcp": "dist/index.js"
